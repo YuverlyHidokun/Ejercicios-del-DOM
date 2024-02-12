@@ -1,0 +1,60 @@
+body {
+    background-color: #A1F480;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: linear-gradient(to bottom, #ffffff, #e0e0e0);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #3DBDC2;
+}
+
+input.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+input.form-control:focus {
+    outline: none;
+    border-color: #0C9CEE;
+    box-shadow: 0 0 10px rgba(12, 156, 238, 0.5);
+}
+
+button.btn-primary {
+    background-color: #591FCE;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+button.btn-primary:hover {
+    background-color: #3D1466;
+}
+
+#resultado {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #A1F480; /* Verde lima */
+    font-weight: bold;
+}
